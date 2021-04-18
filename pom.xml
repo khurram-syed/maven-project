@@ -74,18 +74,17 @@
                 <encoding>UTF-8</encoding>
                 <consoleOutput>true</consoleOutput>
                 <failsOnError>true</failsOnError>
-
                 <outputFile>reports/checkstyle/checkstyle.xml</outputFile>
             </configuration>
-            <executions>
-                <execution>
-                    <id>validate</id>
-                    <phase>validate</phase>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                </execution>
-            </executions>
+            <!--<executions>-->
+                <!--<execution>-->
+                    <!--<id>validate</id>-->
+                    <!--<phase>validate</phase>-->
+                    <!--<goals>-->
+                        <!--<goal>check</goal>-->
+                    <!--</goals>-->
+                <!--</execution>-->
+            <!--</executions>-->
         </plugin>
         <plugin>
             <groupId>org.codehaus.mojo</groupId>

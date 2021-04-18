@@ -3,3 +3,5 @@ target
 server/*.iml
 webapp/*.iml
 .idea/
+server/reports/
+webapp/reports/
