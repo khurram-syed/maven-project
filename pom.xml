@@ -55,7 +55,7 @@
                 <minimumTokens>100</minimumTokens>
                 <targetJdk>1.8</targetJdk>
                 <format>xml</format>
-                <outputDirectory>reports/pmd</outputDirectory>
+                <outputDirectory>../target/pmd</outputDirectory>
                 <excludes>
                     <exclude>**/*Bean.java</exclude>
                     <exclude>**/generated/*.java</exclude>
@@ -73,8 +73,8 @@
                 <!--<configLocation>checkstyle.xml</configLocation>-->
                 <encoding>UTF-8</encoding>
                 <consoleOutput>true</consoleOutput>
-                <failsOnError>true</failsOnError>
-                <outputFile>reports/checkstyle/checkstyle.xml</outputFile>
+                <failsOnError>false</failsOnError>
+                <outputFile>../target/checkstyle/checkstyle.xml</outputFile>
             </configuration>
             <!--<executions>-->
                 <!--<execution>-->
@@ -93,7 +93,7 @@
             <configuration>
                 <xmlOutput>true</xmlOutput>
                 <!-- Optional directory to put findbugs xdoc xml report -->
-                <xmlOutputDirectory>reports/findings/</xmlOutputDirectory>
+                <xmlOutputDirectory>../target/findbugs/</xmlOutputDirectory>
             </configuration>
             <executions>
                 <execution>
